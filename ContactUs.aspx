@@ -1,4 +1,4 @@
-﻿<%@ Page Title="About" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="false" %>
+﻿<%@ Page Title="Contact Us" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="false" %>
 
 <script runat="server">
 

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="false" CodeFile="Query7.aspx.vb" Inherits="Query7" %>
+﻿<%@ Page Title="LP: Query 7" Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="false" CodeFile="Query7.aspx.vb" Inherits="Query7" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

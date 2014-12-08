@@ -91,7 +91,7 @@ first child of the left and right table columns */
     width: 960px;
     background: #034af3;
     margin: 20px auto 0px auto;
-    border: 1px solid #496077;
+    
 }
 
 .header
@@ -136,6 +136,7 @@ first child of the left and right table columns */
     margin: 0px auto;
     text-align: center;
     line-height: normal;
+    background-color: #03774a;
 }
 
 

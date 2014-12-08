@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="false" CodeFile="NewItems.aspx.vb" Inherits="Inventory_NewItems" %>
+﻿<%@ Page Title="LP: New Item" Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="false" CodeFile="NewItems.aspx.vb" Inherits="Inventory_NewItems" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>

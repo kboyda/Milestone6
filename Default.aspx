@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="false"
+﻿<%@ Page Title="Letter Perfect" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="false"
     CodeFile="Default.aspx.vb" Inherits="_Default" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
