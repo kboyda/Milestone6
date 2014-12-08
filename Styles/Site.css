@@ -8,7 +8,7 @@ body
     font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
-    color: #696969;
+    color: #f9f9f9;
 }
 
 a:link, a:visited
@@ -40,7 +40,7 @@ p
 h1, h2, h3, h4, h5, h6
 {
     font-size: 1.5em;
-    color: #666666;
+    color: #f9f9f9;
     font-variant: small-caps;
     text-transform: none;
     font-weight: 200;

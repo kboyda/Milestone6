@@ -17,7 +17,7 @@
               <asp:BoundField DataField="CPHONE" HeaderText="Phone" SortExpression="CPHONE" />
           </Columns>
           <FooterStyle BackColor="#CCCCCC" ForeColor="Black" />
-          <HeaderStyle BackColor="#000084" Font-Bold="True" ForeColor="White" />
+          <HeaderStyle BackColor="#03774a" Font-Bold="True" ForeColor="White" />
           <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
           <RowStyle BackColor="#EEEEEE" ForeColor="Black" />
           <SelectedRowStyle BackColor="#008A8C" Font-Bold="True" ForeColor="White" />
@@ -26,6 +26,7 @@
           <SortedDescendingCellStyle BackColor="#CAC9C9" />
           <SortedDescendingHeaderStyle BackColor="#000065" />
       </asp:GridView>
-
+    <br />
+    <center><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Customers/NewCustomer.aspx" Font-Bold="True" ForeColor="White" >Add New Customer</asp:HyperLink></center>
 </asp:Content>
 

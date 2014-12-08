@@ -13,7 +13,7 @@
     <div class="page">
         <div class="header">
             <div class="title">
-                <img src="Styles/logo.png" />
+                <asp:Image ID="logo1" runat="server" ImageUrl="~/Styles/logo.png" />
             </div>
             <div class="loginDisplay">
                 <asp:Label ID="Label1" runat="server">
@@ -30,7 +30,7 @@
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
-                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
+                        <asp:MenuItem NavigateUrl="~/ContactUs.aspx" Text="Contact"/>
                         <asp:MenuItem NavigateUrl="~/Customers/tCustomers.aspx" Text="Customers"/>
                         <asp:MenuItem NavigateUrl="~/Vendors/tVendors.aspx" Text="Vendors"/>
                         <asp:MenuItem NavigateUrl="~/Employees/tEmployees.aspx" Text="Employees"/>
@@ -38,7 +38,8 @@
                         <asp:MenuItem NavigateUrl="~/Orders/tOrders.aspx" Text="Orders"/>
                         <asp:MenuItem NavigateUrl="~/Inventory/tInventory.aspx" Text="Inventory"/>
                         <asp:MenuItem NavigateUrl="~/Supplies/tSupplyOrders.aspx" Text="Supplies"/>
-                        <asp:MenuItem NavigateUrl="~/Queries/Queries.aspx" Text="Queries"/>
+                        <asp:MenuItem NavigateUrl="~/Queries/Queries.aspx" Text="Queries" Value="Queries"/>
+                       
                     </Items>
                 </asp:Menu>
             </div>
